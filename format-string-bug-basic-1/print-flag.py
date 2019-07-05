@@ -1,0 +1,2 @@
+output = "00000020-0804b160-0804853d-00000009-bffffc22-b7e1c4a9-bffffad4-b7fc4000-b7fc4000-0804b160-39617044-28293664-6d617045-bf000a64-0804861b-00000002-bffffad4-bffffae0-f89ef200-bffffa40-"
+print ''.join([x.decode('hex')[::-1] for x in output.split('-')])
